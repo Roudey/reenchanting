@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ bookshelf run function reenchanting:bookshelves/normal/move_marker

@@ -1,0 +1,1 @@
+$execute store success score #reenchanting.enchanting_success reenchanting.variables run enchant @n[type=zombie,tag=reenchanting.temp_entity] $(temp_enchantment_name) $(temp_enchantment_lvl)

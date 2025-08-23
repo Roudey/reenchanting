@@ -1,0 +1,2 @@
+# Summon marker if there isn't one
+execute unless entity @n[type=marker, dx=0, dy=0, dz=0, tag=reenchanting.bookshelf] run summon marker ~0.5 ~0.5 ~0.5 {Tags:["reenchanting.bookshelf"]}

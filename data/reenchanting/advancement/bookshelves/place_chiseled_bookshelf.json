@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "place_chiseled_bookshelf_interaction": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:chiseled_bookshelf"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "place_chiseled_bookshelf_interaction"
+    ]
+  ],
+  "rewards": {
+    "function": "reenchanting:bookshelves/chiseled/place"
+  }
+}

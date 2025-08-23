@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "place_enchanting_table": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.*": {
+              "items": "minecraft:structure_void",
+              "components": {
+                "minecraft:custom_data": {
+                  "is_enchanting_table": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "place_enchanting_table"
+    ]
+  ],
+  "rewards": {
+    "function": "reenchanting:enchanting_table/placing_and_breaking/init_place"
+  }
+}

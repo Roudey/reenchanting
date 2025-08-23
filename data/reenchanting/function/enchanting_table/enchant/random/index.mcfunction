@@ -1,0 +1,1 @@
+$execute store result storage reenchanting:enchantments_tracker random_index byte 1 run random value 0..$(enchantments_count)

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "add_book_interaction": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:chiseled_bookshelf"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "add_book_interaction"
+    ]
+  ],
+  "rewards": {
+    "function": "reenchanting:bookshelves/chiseled/add_book"
+  }
+}

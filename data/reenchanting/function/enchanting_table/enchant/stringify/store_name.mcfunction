@@ -1,0 +1,2 @@
+data modify storage reenchanting:enchantments_tracker temp_enchantment_name set string storage reenchanting:enchantments_tracker random_enchantment_string 2 -2
+data modify storage reenchanting:enchantments_tracker temp_enchantment_lvl set string storage reenchanting:enchantments_tracker temp_enchantment_lvl 1 -1

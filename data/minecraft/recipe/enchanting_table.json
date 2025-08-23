@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:obsidian",
+    "D": "minecraft:diamond",
+    "R": "minecraft:red_carpet"
+  },
+  "pattern": [
+    " R ",
+    "D#D",
+    "###"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "minecraft:enchanting_table",
+      "minecraft:custom_data": {
+        "is_enchanting_table": true
+      },
+      "minecraft:item_name": {"color":"white","translate": "block.minecraft.enchanting_table"}
+    },
+    "count": 1,
+    "id": "minecraft:structure_void"
+  }
+}

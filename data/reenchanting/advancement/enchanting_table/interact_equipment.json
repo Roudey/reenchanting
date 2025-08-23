@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "equipment_interaction": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "#reenchanting:enchantable"
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"reenchanting.table_interaction\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "equipment_interaction"
+    ]
+  ],
+  "rewards": {
+    "function": "reenchanting:enchanting_table/player_interactions/equipment"
+  }
+}
