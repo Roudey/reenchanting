@@ -4,7 +4,7 @@ execute if block ~ ~ ~ #reenchanting:raycast_blocks run \
         function reenchanting:raycast/finish
 
 # Check if block is misaligned
-execute unless block ~ ~ ~ #air if predicate reenchanting:raycast_surround_check run function reenchanting:raycast/surround_check
+execute if predicate reenchanting:raycast_surround_check run function reenchanting:raycast/surround_check
 
 # Increment step
 scoreboard players add #reenchanting.raycast_step reenchanting.variables 1

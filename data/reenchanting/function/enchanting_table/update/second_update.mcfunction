@@ -1,4 +1,11 @@
-function reenchanting:bookshelves/spawn_particles
+tag @s add reenchanting.enchanting_table_temp
+
+# Spawn particles
+execute positioned ~-2.5 ~-0.5 ~-2.5 as @e[type=marker, tag=reenchanting.particle,dx=4,dy=1,dz=4, limit=3, sort=random] \
+    positioned ~1 ~ ~1 unless entity @s[dx=2, dy=0, dz=2] run \
+    function reenchanting:bookshelves/spawn_particles
+
+tag @s remove reenchanting.enchanting_table_temp
 
 execute if entity @s[nbt=!{Passengers:[{id:"minecraft:item"}]}] run tag @s remove reenchanting.occupied
 

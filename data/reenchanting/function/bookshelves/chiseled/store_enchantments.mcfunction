@@ -1,5 +1,8 @@
 data remove entity @s data.enchantments
 
+tag @s remove reenchanting.particle
+execute if data block ~ ~ ~ Items[] run tag @s add reenchanting.particle
+
 # Store book enchantments in marker
 execute store result score #reenchanting.book0_enchantments_count reenchanting.variables run data get block ~ ~ ~ Items[0].components.minecraft:stored_enchantments
 execute if score #reenchanting.book0_enchantments_count reenchanting.variables matches 1 run \
