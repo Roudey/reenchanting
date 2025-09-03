@@ -68,7 +68,10 @@ Enchanted books and normal bookshelves count as one point each. If the cost is t
 | Redstone wire next to enchanting table re-powers on block update.                 | Unfixable |
 | Hoppers below powered enchanting tables can pull items if redstone-tick updated. | Unfixable |
 | Redstone output from enchanting tables can interfere if placed in close proximity. | Unfixable |
-| Hopper minecarts can take from chiseled bookshelves without updating their data. | Might fix |
-| Sometimes when placing bookshelves on edges of other bookshelves, data isn't registered. | Might fix |
+| Hopper minecarts can take from chiseled bookshelves without updating their data. | Fixed in 0.1.1 |
+| Hopper minecarts can take from enchanting tables without updating their data. | Fixed in 0.1.1 |
+| Block placing raycast sometimes finds wrong block or completely misses target. | Fixed in 0.1.1 |
+| Particles don't spawn around enchanting table.                                   | Fixed in 0.1.1 |
+| Using a waterlogged enchanting table causes waterlogged state to flicker.         | Fixed in 0.1.1 |
 
 </details>
